@@ -8,7 +8,7 @@ handler = logging.StreamHandler()
 handler.setFormatter(logging.Formatter('%(asctime)s:%(levelname)s:%(name)s: %(message)s'))
 logger.addHandler(handler)
 
-TOKEN = "MTEwMjI2MjQ1Nzc5MzI2NTY2NA.GIWn0r.p0ympVTixHoe1EUx5HlENVUxx4doQVC0RhZvUQ" # вставь свой токен
+TOKEN = "Bot_token" # вставь свой токен
 
 api_server = "https://api.thecatapi.com/v1/images/search"
 
